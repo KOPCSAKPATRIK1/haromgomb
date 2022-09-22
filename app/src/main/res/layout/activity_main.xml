@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textIntput"
         android:layout_above="@+id/nagyBetusGomb"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:hint="Irj be valamit..."/>
 
     <Button
         android:layout_width="wrap_content"
@@ -46,7 +48,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
 
 </RelativeLayout>
