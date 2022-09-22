@@ -43,7 +43,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/textOutput"
         android:layout_below="@+id/szinValtoGomb"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
 
 
 </RelativeLayout>
